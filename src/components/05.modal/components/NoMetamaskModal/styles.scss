@@ -1,0 +1,32 @@
+.no-metamask-modal {
+  .ant-modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  &_icon {
+    margin-bottom: 24px;
+  }
+  &_text {
+    font-size: 16px;
+    color: #677184;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .download-metamask-btn {
+    width: 100%;
+    min-height: 42px;
+    min-width: 120px;
+    border-radius: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    background: #fad02c;
+    font-weight: 700;
+    a {
+      color: #0b0d17;
+    }
+  }
+}

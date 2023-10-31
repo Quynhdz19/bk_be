@@ -1,0 +1,16 @@
+@import './colors';
+@import './variable.scss';
+
+.light {
+  .theme-header {
+    background-color: $color-primary-light;
+    color: inherit;
+  }
+}
+
+.dark {
+  .theme-header {
+    background-color: $color-soft-blue;
+    color: inherit;
+  }
+}

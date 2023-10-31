@@ -1,0 +1,40 @@
+@import 'src/assets/scss/responsive.scss';
+@import 'src/assets/scss/variable.scss';
+
+.uploadButton {
+    margin-top: 15px;
+}
+
+.ant-upload-list {
+    max-height: 500px;
+    overflow: auto;
+    max-width: 300px;
+
+    &-item {
+        background-color: $color-soft-white;
+    }
+}
+
+
+.upload-container {
+    background-color: $body-white;
+    min-height: 100vh;
+    .ant-tabs-nav{
+        margin-bottom: 0;
+    }
+}
+
+
+
+.ennotrace {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .ant-tabs-nav-wrap {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        background-color: $color-pure-white;
+        padding: 0 36px;
+    }
+}

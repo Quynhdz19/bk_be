@@ -1,0 +1,90 @@
+@import "src/assets/scss/variable.scss";
+@import "src/assets/scss/responsive.scss";
+
+#layout .site-layout-background {
+  background: $text-color-white;
+}
+
+#layout .logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+  width: 232px;
+  align-items: center;
+  text-align: center;
+}
+
+#layout .other {
+  width: calc(100% - 232px);
+  background: #0f1f19;
+}
+
+#layout .ant-menu-submenu-selected {
+  color: #054f31;
+}
+
+#layout .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #e3f1ec;
+  color: #054f31;
+}
+
+#layout .ant-menu-inline .ant-menu-selected::after,
+.ant-menu-inline .ant-menu-item-selected::after {
+  border-right: 3px solid #054f31;
+}
+
+#layout .ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: #054f31;
+}
+
+#layout
+  .ant-menu-submenu:hover
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  color: #054f31;
+}
+
+#layout .ant-layout.ant-layout-has-sider {
+  min-height: calc(100vh - 64px);
+}
+
+#layout .ant-layout-sider {
+  flex: 0 0 232px !important;
+  max-width: 232px !important;
+  min-width: 232px !important;
+  width: 232px !important;
+}
+
+#layout .ant-menu-title-content {
+  text-transform: capitalize;
+}
+
+#layout .breadcrumb {
+  text-transform: capitalize;
+}
+
+#layout .ant-table-title {
+  padding: 0px ;
+}
+#layout .header {
+  display: flex;
+  // justify-content: center;
+  padding: 0px;
+  background: #ffffff;
+  // width: 232px;
+  &_user-info {
+    .ant-btn-text {
+      color: #ffffff !important;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+}

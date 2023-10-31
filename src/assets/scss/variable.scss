@@ -1,0 +1,141 @@
+// common color of app
+$color-primary-light: #71cff5;
+$color-5th-blue: #71cef3;
+
+// common white
+$color-pure-white: #ffffff;
+$body-white: #F5F5F5;
+$color-soft-white: #FAFAFA;
+
+// black
+$color-pure-black: #000000;
+$color-soft-blue: #1b1936;
+$color-second-soft-blue: #15142c;
+$color-third-soft-blue: #1c233d;
+$color-fourth-soft-blue: #13112b;
+$background-block: #121128;
+$main-background-color: #100f23;
+$address-group-background-color: #0e0c2c;
+$color-note-black: #121212;
+$color-header-black: #001529;
+
+// common blue
+$color-fifth-soft-blue: #2e2b4d;
+$color-second-blue: #6071c3;
+$color-3rd-blue: #293b7b;
+$color-4th-blue: #1e2f51;
+$color-5th-blue: #4d8aff;
+$text-box-background: #28385b;
+$background-float-message: #222054;
+$color-6th-blue: #1890ff;
+$border-color-blue: #516bae;
+
+// common green
+$color-price-green: #6bd481;
+$text-color-green: #399e72;
+$color-green: #39a459;
+$color-green-3: rgba(0, 148, 139, 0.5);
+$color-green-4: #4ecc79;
+$color-green-5: #e5f4f3;
+$color-green-6: #00b2b2;
+$color-green-7: #00948b;
+$color-second-green: #50af95;
+
+// red
+$color-price-red: #ec5f59;
+$text-color-red: #ff4848;
+
+// orange
+$color-orange-1: #fd6d00;
+
+// gray
+$disable-color: #595869;
+$color-second-grey: #666666;
+$color-third-grey: #c5c5cb;
+$color-grey: gray;
+$color-grey-2: #878787;
+$color-grey-3: #f7f7f7;
+$color-grey-4: #787878;
+$color-grey-5: #d1d1d1;
+$color-grey-6: #303030;
+$color-grey-7: #f6f6f6;
+$color-grey-9: #f4f4f4;
+$color-grey-8: #adadad;
+$color-grey-10: #454545;
+$color-grey-11: #b0b3b7;
+$color-1th-gray: #c4c4c4;
+$color-2th-gray: #f5f5f5;
+
+// text color
+$text-color-white: #fff;
+$text-color-white-opacity-60: rgba(255, 255, 255, 0.6);
+$text-color-white-opacity-70: rgba(255, 255, 255, 0.7);
+
+// navbar bg color
+$bg-navbar: #312f60;
+
+// z-index
+$navbar-index: 10;
+$nav-menu-index: 100;
+
+// responsive
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// check box color
+$check-box-color: #559ff7;
+$nft-name-color: #29abe3;
+$nft-score-color: #a6e4ff;
+$bg-social-network: #31304a;
+$thead-date-color: #f8f7fa;
+
+// table color
+$color-table-text: rgba(239, 239, 240, 1);
+$border-color-table: rgba(224, 224, 224, 0.2);
+$background-pagination-direction: #1b1938;
+
+// modal
+$color4: #ebf9f8;
+
+// inputs
+$color8: #6197ff;
+$color10: #fdc932;
+$color11: #f35b37;
+$color12: #242424;
+
+// variable button area
+$color13: #00948b;
+$color14: #fde7e1;
+$color15: rgba(0, 0, 0, 0.25);
+// dark-mode
+$dark-1: #1a1d1f;
+$dark-2: #111215;
+$dark-3: #292c2e;
+
+$dark-mode-grey-1: #424850;
+$dark-mode-grey-2: #6f767e;
+$dark-mode-grey-3: #c1c4c7;
+$dark-mode-grey-4: #dfe1e3;
+$dark-mode-grey-5: #83878c;
+$dark-mode-grey-6: #575c63;
+$dark-mode-grey-7: #292d32;
+$dark-mode-grey-8: #b0b3b7;
+$dark-mode-grey-9: #eceef0;
+$dark-mode-grey-10: #26292a;
+$dark-mode-grey-11: #34383d;
+
+$dark-mode-violet-1: #8f1e8e;
+
+$dark-mode-green-1: #162f2f;
+$dark-mode-green-2: #0b615c;
+
+$color-black-1: #000;
+
+//filter-color
+$filter-color-dark-mode-grey-4: invert(88%) sepia(3%) saturate(140%) hue-rotate(168deg) brightness(108%) contrast(84%);
+//#ffffff
+$filter-color-pure-white: invert(99%) sepia(99%) saturate(0%) hue-rotate(206deg) brightness(103%) contrast(101%);
+//#878787
+$filter-color-gray-icon: invert(58%) sepia(6%) saturate(0%) hue-rotate(232deg) brightness(90%) contrast(91%);
+//#00948b
+$filter-color-green-icon: invert(35%) sepia(84%) saturate(4202%) hue-rotate(159deg) brightness(98%) contrast(101%);

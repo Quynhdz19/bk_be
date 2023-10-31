@@ -1,0 +1,68 @@
+.loading-token {
+  & > div {
+    margin-left: 10px;
+  }
+  div:first-child {
+    margin-left: 0;
+  }
+}
+
+.loading-orderbook-list {
+  flex-direction: column;
+  & > div {
+    margin-bottom: 10px;
+  }
+}
+
+.loading-trading-view {
+  flex-direction: column;
+  .chart {
+    div:first-child {
+      & > div {
+        margin-right: 5px;
+      }
+    }
+    div:last-child {
+      & > div {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.loading-orderbook-form {
+  & > div {
+    margin-bottom: 10px;
+  }
+  .list-button {
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}
+
+.loading-pair {
+  width: 17%;
+}
+
+.market-page-loading {
+  margin-top: 40px;
+}
+
+.wallet-analytic-loading {
+  margin-top: 40px;
+  .three-buttons {
+    div:first-child {
+      margin-left: 0px;
+    }
+    > div {
+      margin-left: 10px;
+    }
+  }
+  .element1 {
+    flex-direction: column;
+    & > div {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}

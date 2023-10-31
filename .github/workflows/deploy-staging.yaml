@@ -1,0 +1,20 @@
+name: Deploy staging ennotrace staging
+run-name: ${{ github.actor }} is deploying staging branch 🚀
+on:
+  push:
+    branches:
+      - "staging"
+jobs:
+  Deploy:
+    runs-on: [self-hosted, runner_ennovie_fe_staging]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js 16.13
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.13
+      - run: |
+          echo "${{ vars.ENNOVIE_STAGING }}" >> .env.development
+          yarn
+          pm2 reload pm2.json

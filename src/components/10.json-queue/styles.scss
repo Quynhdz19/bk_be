@@ -1,0 +1,21 @@
+.queue-container {
+    .action-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0;
+        padding: 0 12px;
+    }
+    .ant-table-thead .ant-table-cell{
+        font-weight: bold;
+    }
+    .json-tooltips {
+        display: flex;
+        align-items: center;
+
+        .text {
+            margin: 0;
+            padding: 0;
+            margin-right: 3px;
+        }
+    }
+}

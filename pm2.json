@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "ennovie-fe",
+            "script": "yarn start",
+            "node_args": "",
+            "instances": 1
+        }
+    ]
+}

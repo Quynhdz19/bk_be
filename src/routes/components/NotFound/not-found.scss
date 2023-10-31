@@ -1,0 +1,56 @@
+@import 'src/assets/scss/variable.scss';
+
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+
+  font-family: 'Poppins', sans-serif;
+
+  color: $text-color-white;
+
+  .big-font {
+    font-size: 8rem;
+    font-weight: 700;
+  }
+
+  .not-found-group {
+    .not-found-text {
+      font-size: 24px;
+      font-family: 'Poppins-SemiBold';
+      font-weight: 600;
+      color: $color-pure-black;
+    }
+
+    .not-found-detail {
+      font-size: 16px;
+      font-family: 'Poppins-Regular';
+      color: $color-grey-4;
+      font-style: italic;
+
+      .not-found-detail-highlight {
+        font-size: 16px;
+        font-family: 'Poppins-Regular';
+        margin-left: 10px;
+        color: $color-pure-black;
+      }
+    }
+  }
+}
+
+.not-found-wrapper.Dark {
+  .not-found-group {
+    .not-found-text {
+      color: $text-color-white;
+    }
+
+    .not-found-detail {
+      color: $dark-mode-grey-5;
+
+      .not-found-detail-highlight {
+        color: $text-color-white;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.otori-modal {
+  .ant-modal-content {
+    padding: 24px 30px 30px 30px;
+    background: #1f242c;
+    border-radius: 8px;
+  }
+
+  .ant-modal-body {
+    padding: 0;
+  }
+  .ant-modal-header {
+    padding-top: 8px;
+    border-bottom: none;
+    background: #1f242c;
+    .ant-modal-title {
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+
+  .ant-modal-footer {
+    padding: 0;
+    border-top: none;
+    & .ant-btn + .ant-btn:not(.ant-dropdown-trigger) {
+      margin: 0;
+    }
+  }
+}
