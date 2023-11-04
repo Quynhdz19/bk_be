@@ -1,5 +1,5 @@
 # Project Name
-Ennotrace.
+Education
 
 ## Environment Setup
 
@@ -8,25 +8,12 @@ Ennotrace.
 
 ## Environment Specification
 
-- Node.js: version 16.3.0
-- yarn: version 1.22.19
+- Node.js: version 18.18.0
 
 ## Step Running
 
 Follow the steps below to set up and run the project on your local machine.
 
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/sotatek-dev/Ennovie-FE.git
-    ```
-2. Navigate to the project directory:
-    
-    ```bash
-    cd Ennovie-FE
-    ```
 3. create a .env file on same level as the src directory: 
     ```bash
     touch .env
